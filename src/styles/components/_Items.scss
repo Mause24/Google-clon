@@ -1,0 +1,24 @@
+.listItem{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    h3{
+        margin-bottom: 20px;
+        font-size: 22px;
+        line-height: 28px;
+        font-family: Google Sans,arial,sans-serif;
+        font-weight: 400;
+    }
+    ul,li{
+      list-style: none;  
+    }
+    ul{
+        li{
+            font-family: arial,sans-serif;
+            font-size: 16px;
+            padding: 12px 0;
+            border-top: 1px solid gray;
+            border-bottom: 1px solid gray;
+        }
+    }
+}

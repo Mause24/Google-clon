@@ -1,0 +1,25 @@
+.iconText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    font-size: 14px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    user-select: none;
+    font-family: Google Sans,arial,sans-serif;
+    color: #5f6368;
+    svg{
+        width: 20px;
+        height: 20px;
+        fill:#5f6368
+    }
+}
+
+.active{
+    color: #1a73e8;
+    border-bottom: 3px solid #1a73e8;
+    svg{
+        fill: #1a73e8;
+    }
+}
